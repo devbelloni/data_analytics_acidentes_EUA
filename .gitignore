@@ -1,3 +1,16 @@
 .idea/
-*.csv
+.vscode/
 __pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Data and generated output
+data/raw/*
+!data/raw/.gitkeep
+reports/*
+!reports/.gitkeep
+*.csv
